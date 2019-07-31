@@ -62,6 +62,8 @@ extended_gene_annotation <- function(dataset){
 
   extended_annotations
 }
+
+
 find_all_BRENDA_ec <- function(){
 
   ec_page <- xml2::read_html("http://www.brenda-enzymes.org/all_enzymes.php")
